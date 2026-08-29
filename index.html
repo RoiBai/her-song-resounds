@@ -13,19 +13,38 @@
     <link rel="icon" href="./favicon.png" />
     <link rel="preload" href="./fonts/SourceHanSerifCN-Regular.otf" as="font" type="font/otf" crossorigin />
     <link rel="preload" href="./fonts/SourceHanSerifCN-Bold.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="./assets/story/opening/opening-cloud-back.webp" as="image" />
+    <link rel="preload" href="./assets/story/opening/opening-cloud-front.webp" as="image" />
+    <link rel="preload" href="./assets/story/opening/opening-title.webp" as="image" />
+    <link rel="preload" href="./assets/story/opening/opening-palace.webp" as="image" />
     <title>颂声起 · Her Song Resounds</title>
     <style>
+      @font-face{font-family:"Opening Serif";src:url('./fonts/SourceHanSerifCN-Regular.otf') format('opentype');font-style:normal;font-weight:400;font-display:swap}
       html,body,#root{min-height:100%;margin:0;background:#eee8dc;color:#3f3731}
-      .initial-loading{position:fixed;inset:0;display:grid;place-items:center;overflow:hidden;background:#eee8dc url('./assets/game/paper-background.webp') center/cover}
-      .initial-loading>div{display:grid;justify-items:center;gap:14px;padding:30px 42px;border:1px solid rgba(112,85,62,.25);border-radius:18px;background:rgba(249,244,235,.84);box-shadow:0 18px 46px rgba(57,43,31,.12);font-family:"Songti SC","STSong",serif}
-      .initial-loading i{width:36px;height:36px;border:3px solid rgba(139,75,55,.2);border-top-color:#9d4b38;border-radius:50%;animation:initial-spin .8s linear infinite}
-      .initial-loading span{font-size:18px;letter-spacing:.08em}@keyframes initial-spin{to{transform:rotate(360deg)}}
-      @media(max-width:760px){.initial-loading{background-image:url('./assets/game/paper-background-mobile.webp')}}
+      .initial-opening{position:fixed;inset:0;display:grid;place-items:center;overflow:hidden;background:#eee8dc url('./assets/game/paper-background.webp') center top/100% auto repeat-y;font-family:"Opening Serif","Songti SC","STSong",serif}
+      .initial-opening-stage{position:relative;width:min(100vw,calc(100vh * 1728 / 1117));aspect-ratio:1728/1117;overflow:visible;container-type:inline-size}
+      .initial-opening-layer{position:absolute;pointer-events:none}.initial-opening-layer>img{display:block;width:100%;height:100%;object-fit:contain}
+      .initial-cloud-back{left:0;top:0;width:100%;height:47.538%;overflow:hidden}.initial-cloud-front{left:0;top:0;width:79.861%;height:57.207%;overflow:hidden}
+      .initial-cloud-track{position:absolute;inset:0 auto 0 0;width:200%;height:100%;display:flex;animation:initial-cloud-scroll 60s linear infinite;will-change:transform}
+      .initial-cloud-front .initial-cloud-track{animation-duration:42s}.initial-cloud-track img{display:block;flex:0 0 50%;width:50%;height:100%;object-fit:contain}
+      .initial-title{left:32.755%;top:14.593%;width:32.292%;height:22.739%}.initial-palace{left:35.648%;top:41.45%;width:28.704%;height:26.231%}
+      .initial-status{position:absolute;left:35%;top:87.8%;width:30%;height:5%;display:grid;place-items:center;text-align:center;font-size:clamp(14px,1.39cqw,24px);line-height:1.35}
+      @keyframes initial-cloud-scroll{from{transform:translate3d(0,0,0)}to{transform:translate3d(-50%,0,0)}}
     </style>
-    <script type="module" crossorigin src="./assets/index-YBpWmFvd.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BkazLTOs.css">
+    <script type="module" crossorigin src="./assets/index-Cd5VsLsg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BIRFokCi.css">
   </head>
   <body>
-    <div id="root"><main class="initial-loading"><div><i></i><span>正在展开画卷</span></div></main></div>
+    <div id="root">
+      <main class="initial-opening" aria-label="1/182个图正在加载中">
+        <div class="initial-opening-stage">
+          <div class="initial-opening-layer initial-cloud-back"><div class="initial-cloud-track"><img src="./assets/story/opening/opening-cloud-back.webp" alt="" /><img src="./assets/story/opening/opening-cloud-back.webp" alt="" /></div></div>
+          <div class="initial-opening-layer initial-cloud-front"><div class="initial-cloud-track"><img src="./assets/story/opening/opening-cloud-front.webp" alt="" /><img src="./assets/story/opening/opening-cloud-front.webp" alt="" /></div></div>
+          <div class="initial-opening-layer initial-title"><img src="./assets/story/opening/opening-title.webp" alt="颂声起" /></div>
+          <div class="initial-opening-layer initial-palace"><img src="./assets/story/opening/opening-palace.webp" alt="宫城前的两位女子" /></div>
+          <div class="initial-status">1/182个图正在加载中</div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
