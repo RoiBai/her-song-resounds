@@ -1,0 +1,36 @@
+/* Scoped to the seven former puzzle areas. Original published CSS is unchanged. */
+.linear-reading-panels {
+  width: min(760px, 86%);
+  margin: 0 auto;
+  padding: clamp(48px, 7vw, 110px) 0;
+  color: var(--player-ink, #3f3731);
+  font-family: "Wanping Serif", "Source Han Serif CN", "Songti SC", serif;
+}
+.linear-reading-title {
+  margin: 0 0 clamp(40px, 5vw, 80px);
+  text-align: center;
+  font-size: clamp(24px, 3vw, 42px);
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+.linear-reading-panel { margin: 0; }
+.linear-reading-panel + .linear-reading-panel { margin-top: clamp(60px, 8vw, 120px); }
+.linear-reading-scene { position: relative; width: 100%; isolation: isolate; }
+.linear-reading-viewport { position: absolute; inset: 0; overflow: visible; }
+.linear-reading-framed .linear-reading-viewport { inset: 2.03% 1.46%; }
+.linear-reading-artwork { position: absolute; inset: 0; overflow: hidden; border-radius: 4px; }
+.linear-reading-scene img { position: absolute; display: block; max-width: none; pointer-events: none; }
+.linear-reading-panel > figcaption {
+  max-width: 32em;
+  margin: 24px auto 0;
+  text-align: center;
+  font-size: clamp(17px, 1.65vw, 25px);
+  line-height: 1.9;
+  font-weight: 400;
+  letter-spacing: .025em;
+}
+@media (max-width: 760px) {
+  .linear-reading-panels { width: 90%; }
+  .linear-reading-panel > figcaption { margin-top: 18px; padding: 0 8px; }
+}

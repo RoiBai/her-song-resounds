@@ -1,0 +1,1182 @@
+{
+  "level-one": [
+    {
+      "type": "scene",
+      "id": "level-one-story-1",
+      "aspectRatio": 1.5,
+      "alt": "上官仪以谋反罪被处死。",
+      "caption": "上官仪以谋反罪被处死。",
+      "layers": [
+        {
+          "key": "death-background",
+          "label": "场景 · 墓地",
+          "src": "assets/game/level-one/death/death-background-cemetery.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "death-bubble",
+          "label": "死亡气泡",
+          "src": "assets/game/level-one/death/death-bubble.webp",
+          "x": 69,
+          "y": 6,
+          "w": 21,
+          "z": 28,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "death-portrait-shangguanyi",
+          "label": "第一死者灰头像 · 上官仪",
+          "src": "assets/game/level-one/death/shangguan-yi-death.webp",
+          "x": 72.97327061298643,
+          "y": 3.3921785923194196,
+          "w": 15.8,
+          "z": 29,
+          "kind": "portrait",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.519652868284408,
+        "y": -2.2124868118910195,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-one-story-2",
+      "aspectRatio": 1.5,
+      "alt": "婉儿自幼读书习文，很早便显出了才华。",
+      "caption": "婉儿自幼读书习文，很早便显出了才华。",
+      "layers": [
+        {
+          "key": "poem-background",
+          "label": "场景 · 书房近景",
+          "src": "assets/game/level-one/books/scene-study-interior.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "poem-writer-waner",
+          "label": "写字大图 · 上官婉儿",
+          "src": "assets/game/level-one/books/young-shangguan-waner-writing-side.webp",
+          "x": 7.61467705655527,
+          "y": 4.200780017267558,
+          "w": 51.4,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.519652868284408,
+        "y": -2.2124868118910195,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-one-story-3",
+      "aspectRatio": 1.5,
+      "alt": "武则天召见上官婉儿，她爱惜她的才华，予以重用。",
+      "caption": "武则天召见上官婉儿，她爱惜她的才华，予以重用。",
+      "layers": [
+        {
+          "key": "edict-background-with-empress",
+          "label": "场景 · 诏令与武则天",
+          "src": "assets/game/level-one/edict/scene-edict-with-wu-zetian.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "edict-kneel-waner",
+          "label": "跪姿 · 上官婉儿",
+          "src": "assets/game/level-one/edict/waner-kneeling.webp",
+          "x": 49.27640986503856,
+          "y": 67.84200184584239,
+          "w": 22,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.519652868284408,
+        "y": -2.2124868118910195,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    }
+  ],
+  "level-two": [
+    {
+      "type": "scene",
+      "id": "level-two-story-1",
+      "aspectRatio": 1.5,
+      "alt": "李治和武则天生下太平公主。",
+      "caption": "李治和武则天生下太平公主。",
+      "layers": [
+        {
+          "key": "marriage-background",
+          "label": "场景 · 婚姻",
+          "src": "assets/game/level-two/marriage/scene-marriage.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "side-left-lizhi",
+          "label": "左侧人物 · 李治",
+          "src": "assets/game/level-two/marriage/li-zhi-close-side.webp",
+          "x": -4.123708008712676,
+          "y": 10.605724598935733,
+          "w": 56.7,
+          "z": 30,
+          "kind": "natural",
+          "flip": false,
+          "opacity": 1
+        },
+        {
+          "key": "side-right-wuzetian",
+          "label": "右侧人物 · 武则天",
+          "src": "assets/game/level-two/marriage/wu-zetian-close-side.webp",
+          "x": 44.846943506256636,
+          "y": -0.1258372163739087,
+          "w": 58.4,
+          "z": 30,
+          "kind": "natural",
+          "flip": true,
+          "opacity": 1
+        },
+        {
+          "key": "marriage-feedback-correct",
+          "label": "婚姻结果 · 正确",
+          "src": "assets/game/level-two/marriage/marriage-correct.webp",
+          "x": 39.99009881105398,
+          "y": 13.111286433058442,
+          "w": 17.2,
+          "z": 40,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-two-story-2",
+      "aspectRatio": 1.5,
+      "alt": "太平公主饱读诗书，才华横溢。",
+      "caption": "太平公主饱读诗书，才华横溢。",
+      "layers": [
+        {
+          "key": "poem-background",
+          "label": "场景 · 诗卷",
+          "src": "assets/game/level-two/books/scene-books.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "poem-reader-taiping",
+          "label": "读书图 · 太平公主",
+          "src": "assets/game/level-two/books/young-princess-taiping-reading.webp",
+          "x": 27.866424325192803,
+          "y": -0.1265295185923963,
+          "w": 51.4,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-two-story-3",
+      "aspectRatio": 1.5,
+      "alt": "太平公主得到武则天宠爱。",
+      "caption": "太平公主得到武则天宠爱。",
+      "layers": [
+        {
+          "key": "background-left-wuzetian",
+          "label": "左侧底色 · 武则天",
+          "src": "assets/game/solid-scene-generic.webp",
+          "x": 0,
+          "y": 0,
+          "w": 50,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "background-right-taiping",
+          "label": "右侧底色 · 太平公主",
+          "src": "assets/game/solid-scene-princess-taiping.webp",
+          "x": 50,
+          "y": 0,
+          "w": 50,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "side-left-wuzetian",
+          "label": "左侧人物 · 武则天",
+          "src": "assets/game/level-two/marriage/wu-zetian-close-side.webp",
+          "x": -4.29532687503214,
+          "y": -0.20065507351945153,
+          "w": 58.4,
+          "z": 30,
+          "kind": "natural",
+          "flip": false,
+          "opacity": 1
+        },
+        {
+          "key": "side-right-taiping",
+          "label": "右侧人物 · 太平公主",
+          "src": "assets/game/level-two/marriage/young-princess-taiping-close-side.webp",
+          "x": 45.18383888831321,
+          "y": 7.123884089613561,
+          "w": 58.4,
+          "z": 30,
+          "kind": "natural",
+          "flip": true,
+          "opacity": 1
+        },
+        {
+          "key": "power-office",
+          "label": "官位",
+          "src": "assets/game/level-two/power/office.webp",
+          "x": 39.33899823264782,
+          "y": 3.2042633004852803,
+          "w": 20.7,
+          "z": 41,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "power-bubble",
+          "label": "官位气泡 · 武则天在左",
+          "src": "assets/game/level-two/power/office-bubble.webp",
+          "x": 38.817721722365036,
+          "y": 3.6401798207746587,
+          "w": 21.8,
+          "z": 40,
+          "kind": "natural",
+          "flip": false,
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    }
+  ],
+  "level-three": [
+    {
+      "type": "scene",
+      "id": "level-three-story-1",
+      "aspectRatio": 1.5,
+      "alt": "婉儿与太平公主共游东壁。",
+      "caption": "婉儿与太平公主共游东壁。",
+      "layers": [
+        {
+          "key": "scene-composite-lake",
+          "label": "游湖 · 双人完整画面",
+          "src": "assets/game/level-three/lake-trip-shangguan-waner-taiping.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 20,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-three-story-2",
+      "aspectRatio": 1.5,
+      "alt": "婉儿与太平公主同宴北渚。",
+      "caption": "婉儿与太平公主同宴北渚。",
+      "layers": [
+        {
+          "key": "scene-composite-banquet",
+          "label": "宴席 · 双人完整画面",
+          "src": "assets/game/level-three/banquet-shangguan-waner-princess-taiping.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 20,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-three-story-3",
+      "aspectRatio": 1.5,
+      "alt": "婉儿与太平公主诗忆长存。",
+      "caption": "婉儿与太平公主诗忆长存。",
+      "layers": [
+        {
+          "key": "scene-composite-poem",
+          "label": "诗文 · 双人完整画面",
+          "src": "assets/game/level-three/poetry-shangguan-waner-princess-taiping-banquet.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 20,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    }
+  ],
+  "level-four": [
+    {
+      "type": "scene",
+      "id": "level-four-story-1",
+      "aspectRatio": 1.5,
+      "alt": "上官婉儿掌管诏命，与朝中官员往来。",
+      "caption": "上官婉儿掌管诏命，与朝中官员往来。",
+      "layers": [
+        {
+          "key": "power-composite",
+          "label": "婉儿＋权力 · 完整画面",
+          "src": "assets/game/level-four/waner-power-composite.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-four-story-2",
+      "aspectRatio": 1.5,
+      "alt": "太平公主与安乐公主各自发展势力。",
+      "caption": "太平公主与安乐公主各自发展势力。",
+      "layers": [
+        {
+          "key": "background-left-taiping",
+          "label": "左侧底色 · 太平公主",
+          "src": "assets/game/solid-scene-princess-taiping.webp",
+          "x": 0,
+          "y": 0,
+          "w": 50,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "background-right-anle",
+          "label": "右侧底色 · 安乐公主",
+          "src": "assets/game/solid-scene-generic.webp",
+          "x": 50,
+          "y": 0,
+          "w": 50,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "side-left-taiping",
+          "label": "左侧人物 · 太平公主",
+          "src": "assets/game/level-three/princess-taiping-close-side-half.webp",
+          "x": 0.32033258354755567,
+          "y": 0.892405251719313,
+          "w": 47,
+          "z": 30,
+          "kind": "natural",
+          "flip": true,
+          "opacity": 1
+        },
+        {
+          "key": "side-right-anle",
+          "label": "右侧人物 · 安乐公主",
+          "src": "assets/game/level-four/princess-anle-side.webp",
+          "x": 45.16327344912119,
+          "y": 1.7919474037040388,
+          "w": 59.8,
+          "z": 30,
+          "kind": "natural",
+          "flip": false,
+          "opacity": 1
+        },
+        {
+          "key": "balance-large",
+          "label": "制衡 · 中央大图标",
+          "src": "assets/game/level-four/balance-large-icon.webp",
+          "x": 24.498533901028278,
+          "y": 27.484861115246062,
+          "w": 52.1,
+          "z": 20,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-four-story-3",
+      "aspectRatio": 1.5,
+      "alt": "上官婉儿反对安乐公主成为皇太女。",
+      "caption": "上官婉儿反对安乐公主成为皇太女。",
+      "layers": [
+        {
+          "key": "edict-seat-anle",
+          "label": "诏令登座 · 安乐公主",
+          "src": "assets/game/level-four/edict-princess-anle.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "edict-stand-waner",
+          "label": "诏令站立人物 · 上官婉儿",
+          "src": "assets/game/level-three/shangguan-waner-close-side-half.webp",
+          "x": -3.156631587403599,
+          "y": 4.827199380749651,
+          "w": 49,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "edict-bubble",
+          "label": "安乐公主拒绝气泡",
+          "src": "assets/game/level-four/rivalry-bubble.webp",
+          "x": 38.14494296272494,
+          "y": 13.09598380422162,
+          "w": 15,
+          "z": 50,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    }
+  ],
+  "level-five": [
+    {
+      "type": "scene",
+      "id": "level-five-story-1",
+      "aspectRatio": 1.5,
+      "alt": "唐中宗去世。",
+      "caption": "唐中宗去世。",
+      "layers": [
+        {
+          "key": "background-death",
+          "label": "场景 · 皇族死亡",
+          "src": "assets/game/scene-royal-deaths.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "death-bubble",
+          "label": "死亡气泡",
+          "src": "assets/game/bubble.webp",
+          "x": 57,
+          "y": 7,
+          "w": 31.8,
+          "z": 28,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "death-portrait-zhongzong",
+          "label": "灰色头像 · 唐中宗",
+          "src": "assets/game/death/emperor-zhongzong-death-avatar.webp",
+          "x": 65.6356170837926,
+          "y": 10.872449787682758,
+          "w": 15.6,
+          "z": 29,
+          "kind": "portrait",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-five-story-2",
+      "aspectRatio": 1.5,
+      "alt": "上官婉儿与太平拟定遗诏。",
+      "caption": "上官婉儿与太平拟定遗诏。",
+      "layers": [
+        {
+          "key": "background-left-waner",
+          "label": "左侧底色 · 上官婉儿",
+          "src": "assets/game/solid-scene-shangguan-waner.webp",
+          "x": 0.4322983611825193,
+          "y": 0.33344249605525617,
+          "w": 50,
+          "z": 2,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "background-right-taiping",
+          "label": "右侧底色 · 太平公主",
+          "src": "assets/game/solid-scene-princess-taiping.webp",
+          "x": 49.37439749357326,
+          "y": -0.09899074101640418,
+          "w": 122.1,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "side-left-waner",
+          "label": "左侧人物 · 上官婉儿",
+          "src": "assets/game/shangguan-waner-close-side.webp",
+          "x": -3.5778736168373224,
+          "y": -0.5840969379882284,
+          "w": 51.4,
+          "z": 30,
+          "kind": "natural",
+          "flip": false,
+          "opacity": 1
+        },
+        {
+          "key": "side-right-taiping",
+          "label": "右侧人物 · 太平公主",
+          "src": "assets/game/princess-taiping-close-side.webp",
+          "x": 52.98790258195014,
+          "y": -0.06820922086521475,
+          "w": 51.4,
+          "z": 30,
+          "kind": "natural",
+          "flip": true,
+          "opacity": 1
+        },
+        {
+          "key": "edict-large",
+          "label": "诏令 · 大图",
+          "src": "assets/game/edict-large.webp",
+          "x": 19.58137050128534,
+          "y": -0.02753877757599213,
+          "w": 51.4,
+          "z": 12,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-five-story-3",
+      "aspectRatio": 1.5,
+      "alt": "制定韦皇后、李重茂、李旦权力制衡的方案。",
+      "caption": "制定韦皇后、李重茂、李旦权力制衡的方案。",
+      "layers": [
+        {
+          "key": "triple-background-top",
+          "label": "三分背景 · 上方 · 韦皇后",
+          "src": "assets/game/level-five/empress-wei-background.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "clipPath": "polygon(0 0, 100% 0, 50% 63%)",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "triple-background-right",
+          "label": "三分背景 · 右下 · 李重茂",
+          "src": "assets/game/solid-scene-shangguan-waner.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "clipPath": "polygon(100% 0, 50% 63%, 50% 100%, 100% 100%)",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "triple-background-left",
+          "label": "三分背景 · 左下 · 李旦",
+          "src": "assets/game/solid-scene-generic.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "clipPath": "polygon(0 0, 50% 63%, 50% 100%, 0 100%)",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "triple-divider-left",
+          "label": "三分线 · 左上",
+          "src": "assets/game/level-five/top-left.webp",
+          "x": 0,
+          "y": 0,
+          "w": 49.9,
+          "z": 8,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "triple-divider-right",
+          "label": "三分线 · 右上",
+          "src": "assets/game/level-five/top-right.webp",
+          "x": 48.8,
+          "y": 0,
+          "w": 51.2,
+          "z": 8,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "triple-divider-center",
+          "label": "三分线 · 中线",
+          "src": "assets/game/level-five/center-line.webp",
+          "x": 49.6,
+          "y": 61.9,
+          "w": 0.8,
+          "z": 8,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "triple-avatar-top",
+          "label": "三人头像 · 上方 · 韦皇后",
+          "src": "assets/game/level-five/empress-wei-choice.webp",
+          "x": 35.1702080655527,
+          "y": 1.2587751942600263,
+          "w": 30,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "triple-avatar-right",
+          "label": "三人头像 · 右下 · 李重茂",
+          "src": "assets/game/level-five/li-chongmao-choice.webp",
+          "x": 67.82730157455012,
+          "y": 41.62782458542976,
+          "w": 30,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "triple-avatar-left",
+          "label": "三人头像 · 左下 · 李旦",
+          "src": "assets/game/level-five/li-dan-choice.webp",
+          "x": 3.310130141388175,
+          "y": 43.747566167495314,
+          "w": 30,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "triple-balance",
+          "label": "三人画面 · 制衡",
+          "src": "assets/game/level-four/balance-large-icon.webp",
+          "x": 34.41157214010283,
+          "y": 54.514081991128045,
+          "w": 31,
+          "z": 20,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    }
+  ],
+  "level-six": [
+    {
+      "type": "scene",
+      "id": "level-six-story-1",
+      "aspectRatio": 1.5,
+      "alt": "李隆基拒绝赦免，婉儿被杀。",
+      "caption": "李隆基拒绝赦免，婉儿被杀。",
+      "layers": [
+        {
+          "key": "power-background-longji",
+          "label": "场景 · 朝堂与李隆基",
+          "src": "assets/game/level-six/court-hall-with-li-longji.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "power-kneel-waner",
+          "label": "跪拜小人 · 上官婉儿",
+          "src": "assets/game/level-six/kneeling-figure-shangguan-waner.webp",
+          "x": 43.18760041773779,
+          "y": 62.47235702164399,
+          "w": 12.5,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "power-kill-bubble",
+          "label": "杀害气泡",
+          "src": "assets/game/level-six/murder-bubble.webp",
+          "x": 53.92922557840617,
+          "y": 13.693084045371997,
+          "w": 18.1,
+          "z": 27,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "power-kill-knife",
+          "label": "杀害 · 刀",
+          "src": "assets/game/level-six/murder-knife-bubble-overlay.webp",
+          "x": 56.10445453084832,
+          "y": 15.58185715561642,
+          "w": 14.5,
+          "z": 28,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-six-story-2",
+      "aspectRatio": 1.5,
+      "alt": "太平得知婉儿死亡。",
+      "caption": "太平得知婉儿死亡。",
+      "layers": [
+        {
+          "key": "death-background",
+          "label": "场景 · 墓地",
+          "src": "assets/game/level-one/death/death-background-cemetery.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "death-bubble",
+          "label": "死亡气泡",
+          "src": "assets/game/level-one/death/death-bubble.webp",
+          "x": 61,
+          "y": 5,
+          "w": 25,
+          "z": 28,
+          "kind": "natural",
+          "opacity": 1
+        },
+        {
+          "key": "death-portrait-waner",
+          "label": "第一死者灰头像 · 上官婉儿",
+          "src": "assets/game/death/shangguan-waner-death-avatar.webp",
+          "x": 66.62007953084833,
+          "y": 4.530947631665128,
+          "w": 15.9,
+          "z": 29,
+          "kind": "portrait",
+          "opacity": 1
+        },
+        {
+          "key": "death-survivor-taiping",
+          "label": "第二位活人 · 太平公主",
+          "src": "assets/game/princess-taiping-close-side.webp",
+          "x": 1.4093629498714653,
+          "y": -0.14588109202417457,
+          "w": 51.4,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    },
+    {
+      "type": "scene",
+      "id": "level-six-story-3",
+      "aspectRatio": 1.5,
+      "alt": "太平派人吊祭婉儿。",
+      "caption": "太平派人吊祭婉儿。",
+      "layers": [
+        {
+          "key": "memorial-background",
+          "label": "场景 · 吊祭",
+          "src": "assets/game/level-six/scene-memorial.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "z": 1,
+          "kind": "cover",
+          "h": 100,
+          "fit": "cover",
+          "opacity": 1
+        },
+        {
+          "key": "memorial-tablet-waner",
+          "label": "吊祭牌位 · 上官婉儿",
+          "src": "assets/game/level-six/memorial-shangguan-waner.webp",
+          "x": 42.16828406169666,
+          "y": 11.234517252672006,
+          "w": 15.8,
+          "z": 30,
+          "kind": "natural",
+          "opacity": 1
+        }
+      ],
+      "clip": true,
+      "frame": {
+        "key": "frame",
+        "label": "格子外边框",
+        "src": "assets/game/slot-frame.webp",
+        "x": -1.5,
+        "y": -2.1,
+        "w": 103,
+        "z": 90,
+        "kind": "natural",
+        "interactive": false,
+        "opacity": 1
+      }
+    }
+  ],
+  "story-final-chapter": [
+    {
+      "type": "scene",
+      "id": "final-resolved-1",
+      "aspectRatio": 1.488888888888889,
+      "alt": "上官婉儿执掌制诰、参与朝廷机要。",
+      "caption": "上官婉儿执掌制诰、参与朝廷机要。",
+      "clip": true,
+      "layers": [
+        {
+          "src": "assets/game/final-chapter/resolved-1.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100,
+          "z": 1,
+          "opacity": 1,
+          "kind": "cover",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "id": "final-resolved-2",
+      "aspectRatio": 1.488888888888889,
+      "alt": "太平公主权略过人，能在变幻的朝局中谋断进退。",
+      "caption": "太平公主权略过人，能在变幻的朝局中谋断进退。",
+      "clip": true,
+      "layers": [
+        {
+          "src": "assets/game/final-chapter/resolved-2.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100,
+          "z": 1,
+          "opacity": 1,
+          "kind": "cover",
+          "fit": "contain"
+        }
+      ]
+    },
+    {
+      "type": "scene",
+      "id": "final-resolved-3",
+      "aspectRatio": 1.488888888888889,
+      "alt": "二人是共游的知己，也是危局中彼此信任的政治盟友。",
+      "caption": "二人是共游的知己，也是危局中彼此信任的政治盟友。",
+      "clip": true,
+      "layers": [
+        {
+          "src": "assets/game/final-chapter/resolved-3.webp",
+          "x": 0,
+          "y": 0,
+          "w": 100,
+          "h": 100,
+          "z": 1,
+          "opacity": 1,
+          "kind": "cover",
+          "fit": "contain"
+        }
+      ]
+    }
+  ]
+}
