@@ -14,7 +14,8 @@
   font-weight: 700;
   letter-spacing: .08em;
 }
-.linear-reading-panel { margin: 0; }
+.linear-reading-panel { width: 60%; margin: 0; }
+.linear-reading-panel:nth-of-type(even) { margin-left: auto; }
 .linear-reading-panel + .linear-reading-panel { margin-top: clamp(60px, 8vw, 120px); }
 .linear-reading-scene { position: relative; width: 100%; isolation: isolate; }
 .linear-reading-viewport { position: absolute; inset: 0; overflow: visible; }
