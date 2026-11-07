@@ -1,0 +1,1730 @@
+{
+  "title": "颂声起",
+  "description": "上官婉儿与太平公主的故事",
+  "source": {
+    "path": "wanping-level-editor/publish/project.json",
+    "revision": 3459,
+    "projectId": "wanping-main",
+    "notes": "Narrative copy and artwork are extracted from the original project; interactive levels are replaced by their completed scene compositions and original completion captions."
+  },
+  "cover": {
+    "titleImage": "assets/story/opening/opening-title.webp",
+    "palaceImage": "assets/story/opening/opening-palace.webp",
+    "cloudBack": "assets/story/opening/opening-cloud-back.webp",
+    "cloudFront": "assets/story/opening/opening-cloud-front.webp",
+    "cloudAccent": "assets/story/opening/opening-cloud-accent.webp"
+  },
+  "chapters": [
+    {
+      "id": "daughter",
+      "title": "罪臣之女",
+      "kicker": "公元664年起",
+      "items": [
+        {
+          "type": "image",
+          "id": "figma-intro-council-layer",
+          "src": "assets/story/wanping-export/0-0.webp",
+          "alt": "商议废后",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-intro-copy",
+          "text": "公元664年。\n唐高宗李治一度想废掉皇后武则天，\n于是召来宰相上官仪商议，\n上官仪赞成废后，并奉命起草诏书。",
+          "boldRanges": [
+            {
+              "start": 11,
+              "end": 13
+            },
+            {
+              "start": 20,
+              "end": 23
+            },
+            {
+              "start": 31,
+              "end": 34
+            },
+            {
+              "start": 38,
+              "end": 41
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-intro-message-layer",
+          "src": "assets/story/wanping-export/0-1.webp",
+          "alt": "消息传入宫中",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-intro-message-caption",
+          "text": "消息很快传到武则天耳中。",
+          "boldRanges": []
+        },
+        {
+          "type": "scene",
+          "id": "intro-trial",
+          "aspectRatio": 1.5867141382242727,
+          "alt": "武则天与获罪的上官仪",
+          "sourceLayerIds": [
+            "figma-intro-trial-layer",
+            "figma-intro-bubble-layer",
+            "image-layer-c02f952a"
+          ],
+          "layers": [
+            {
+              "src": "assets/story/wanping-export/0-2.webp",
+              "x": 0,
+              "y": 0,
+              "w": 94.0620782726046,
+              "h": 70.87751413660382,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/uploads/fa274215e035d6611815.webp",
+              "x": 45.790981030047476,
+              "y": 8.350431208020714,
+              "w": 11.439282527787267,
+              "h": 91.64956879197928,
+              "z": 41,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-intro-dialogue",
+          "text": "你们可知该当何罪！",
+          "boldRanges": []
+        },
+        {
+          "type": "text",
+          "id": "figma-intro-trial-copy",
+          "text": "不久，上官仪以谋反罪被处死，\n他的儿子上官庭芝也一同获罪被杀。",
+          "boldRanges": [
+            {
+              "start": 19,
+              "end": 23
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-intro-baby-copy",
+          "text": "但上官庭芝还留下了一个尚在襁褓中的女儿。\n她的名字是……上官婉儿。",
+          "boldRanges": [
+            {
+              "start": 28,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-intro-baby-layer",
+          "src": "assets/story/wanping-export/0-4.webp",
+          "alt": "襁褓中的上官婉儿",
+          "flip": false
+        },
+        {
+          "type": "scene",
+          "id": "level-one-story-1",
+          "aspectRatio": 1.5,
+          "alt": "上官仪以谋反罪被处死。",
+          "caption": "上官仪以谋反罪被处死。",
+          "layers": [
+            {
+              "key": "death-background",
+              "label": "场景 · 墓地",
+              "src": "assets/game/level-one/death/death-background-cemetery.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "death-bubble",
+              "label": "死亡气泡",
+              "src": "assets/game/level-one/death/death-bubble.webp",
+              "x": 69,
+              "y": 6,
+              "w": 21,
+              "z": 28,
+              "kind": "natural"
+            },
+            {
+              "key": "death-portrait-shangguanyi",
+              "label": "第一死者灰头像 · 上官仪",
+              "src": "assets/game/level-one/death/shangguan-yi-death.webp",
+              "x": 72.97327061298643,
+              "y": 3.3921785923194196,
+              "w": 15.8,
+              "z": 29,
+              "kind": "portrait"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-one-story-2",
+          "aspectRatio": 1.5,
+          "alt": "婉儿自幼读书习文，很早便显出了才华。",
+          "caption": "婉儿自幼读书习文，很早便显出了才华。",
+          "layers": [
+            {
+              "key": "poem-background",
+              "label": "场景 · 书房近景",
+              "src": "assets/game/level-one/books/scene-study-interior.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "poem-writer-waner",
+              "label": "写字大图 · 上官婉儿",
+              "src": "assets/game/level-one/books/young-shangguan-waner-writing-side.webp",
+              "x": 7.61467705655527,
+              "y": 4.200780017267558,
+              "w": 51.4,
+              "z": 30,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-one-story-3",
+          "aspectRatio": 1.5,
+          "alt": "武则天召见上官婉儿，她爱惜她的才华，予以重用。",
+          "caption": "武则天召见上官婉儿，她爱惜她的才华，予以重用。",
+          "layers": [
+            {
+              "key": "edict-background-with-empress",
+              "label": "场景 · 诏令与武则天",
+              "src": "assets/game/level-one/edict/scene-edict-with-wu-zetian.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "edict-kneel-waner",
+              "label": "跪姿 · 上官婉儿",
+              "src": "assets/game/level-one/edict/waner-kneeling.webp",
+              "x": 49.27640986503856,
+              "y": 67.84200184584239,
+              "w": 22,
+              "z": 30,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-after1-mother-layer",
+          "src": "assets/story/wanping-export/1-1.webp",
+          "alt": "婉儿与母亲",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after1-mother-copy",
+          "text": "从此，婉儿摆脱在掖庭的生活，\n就这样渐渐进入唐宫的权力中心。",
+          "boldRanges": []
+        }
+      ]
+    },
+    {
+      "id": "princess",
+      "title": "帝王之女",
+      "kicker": "同一座宫城",
+      "items": [
+        {
+          "type": "image",
+          "id": "figma-after1-family-layer",
+          "src": "assets/story/wanping-export/1-2.webp",
+          "alt": "太平公主一家",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after1-taiping-copy",
+          "text": "而就在同一座宫城里，还有另一个女孩。\n她不需要靠才华换来进入宫廷的机会，\n因为她生来便是贵族。\n\n她的父亲，是唐高宗李治。\n而她的母亲，是后来成为皇帝的武则天。\n\n她是皇帝最宠爱的女儿之一，\n也是大唐最尊贵的公主之一。\n\n她叫……太平公主。",
+          "boldRanges": [
+            {
+              "start": 58,
+              "end": 60
+            },
+            {
+              "start": 76,
+              "end": 79
+            },
+            {
+              "start": 115,
+              "end": 119
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-two-story-1",
+          "aspectRatio": 1.5,
+          "alt": "李治和武则天生下太平公主。",
+          "caption": "李治和武则天生下太平公主。",
+          "layers": [
+            {
+              "key": "marriage-background",
+              "label": "场景 · 婚姻",
+              "src": "assets/game/level-two/marriage/scene-marriage.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "side-left-lizhi",
+              "label": "左侧人物 · 李治",
+              "src": "assets/game/level-two/marriage/li-zhi-close-side.webp",
+              "x": -4.123708008712676,
+              "y": 10.605724598935733,
+              "w": 56.7,
+              "z": 30,
+              "kind": "natural",
+              "flip": false
+            },
+            {
+              "key": "side-right-wuzetian",
+              "label": "右侧人物 · 武则天",
+              "src": "assets/game/level-two/marriage/wu-zetian-close-side.webp",
+              "x": 44.846943506256636,
+              "y": -0.1258372163739087,
+              "w": 58.4,
+              "z": 30,
+              "kind": "natural",
+              "flip": true
+            },
+            {
+              "key": "marriage-feedback-correct",
+              "label": "婚姻结果 · 正确",
+              "src": "assets/game/level-two/marriage/marriage-correct.webp",
+              "x": 39.99009881105398,
+              "y": 13.111286433058442,
+              "w": 17.2,
+              "z": 40,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-two-story-2",
+          "aspectRatio": 1.5,
+          "alt": "太平公主饱读诗书，才华横溢。",
+          "caption": "太平公主饱读诗书，才华横溢。",
+          "layers": [
+            {
+              "key": "poem-background",
+              "label": "场景 · 诗卷",
+              "src": "assets/game/level-two/books/scene-books.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "poem-reader-taiping",
+              "label": "读书图 · 太平公主",
+              "src": "assets/game/level-two/books/young-princess-taiping-reading.webp",
+              "x": 27.866424325192803,
+              "y": -0.1265295185923963,
+              "w": 51.4,
+              "z": 30,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-two-story-3",
+          "aspectRatio": 1.5,
+          "alt": "太平公主得到武则天宠爱。",
+          "caption": "太平公主得到武则天宠爱。",
+          "layers": [
+            {
+              "key": "background-left-wuzetian",
+              "label": "左侧底色 · 武则天",
+              "src": "assets/game/solid-scene-generic.webp",
+              "x": 0,
+              "y": 0,
+              "w": 50,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "background-right-taiping",
+              "label": "右侧底色 · 太平公主",
+              "src": "assets/game/solid-scene-princess-taiping.webp",
+              "x": 50,
+              "y": 0,
+              "w": 50,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "side-left-wuzetian",
+              "label": "左侧人物 · 武则天",
+              "src": "assets/game/level-two/marriage/wu-zetian-close-side.webp",
+              "x": -4.29532687503214,
+              "y": -0.20065507351945153,
+              "w": 58.4,
+              "z": 30,
+              "kind": "natural",
+              "flip": false
+            },
+            {
+              "key": "side-right-taiping",
+              "label": "右侧人物 · 太平公主",
+              "src": "assets/game/level-two/marriage/young-princess-taiping-close-side.webp",
+              "x": 45.18383888831321,
+              "y": 7.123884089613561,
+              "w": 58.4,
+              "z": 30,
+              "kind": "natural",
+              "flip": true
+            },
+            {
+              "key": "power-office",
+              "label": "官位",
+              "src": "assets/game/level-two/power/office.webp",
+              "x": 39.33899823264782,
+              "y": 3.2042633004852803,
+              "w": 20.7,
+              "z": 41,
+              "kind": "natural"
+            },
+            {
+              "key": "power-bubble",
+              "label": "官位气泡 · 武则天在左",
+              "src": "assets/game/level-two/power/office-bubble.webp",
+              "x": 38.817721722365036,
+              "y": 3.6401798207746587,
+              "w": 21.8,
+              "z": 40,
+              "kind": "natural",
+              "flip": false
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-after2-overlook-layer",
+          "src": "assets/story/wanping-export/2-1.webp",
+          "alt": "母女望向宫城",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after2-overlook-copy",
+          "text": "后来一些重要的事情，武则天会让太平参与商议。\n太平公主开始真正走进朝廷的谋议之中。",
+          "boldRanges": []
+        }
+      ]
+    },
+    {
+      "id": "companions",
+      "title": "同游共宴",
+      "kicker": "上官婉儿与太平公主",
+      "items": [
+        {
+          "type": "scene",
+          "id": "palace-companions",
+          "aspectRatio": 1.5750847916517212,
+          "alt": "同一座宫廷中的上官婉儿与太平公主",
+          "sourceLayerIds": [
+            "image-layer-e66fd9a7",
+            "image-layer-cf72801b",
+            "figma-after2-palace-layer"
+          ],
+          "layers": [
+            {
+              "src": "assets/game/shangguan-waner-close-side.webp",
+              "x": 0,
+              "y": 0,
+              "w": 43.44815770829273,
+              "h": 79.06086530689687,
+              "z": 21,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": true,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/game/princess-taiping-close-side.webp",
+              "x": 62.23785244818904,
+              "y": 14.857860019472872,
+              "w": 37.76214755181096,
+              "h": 85.14213998052713,
+              "z": 22,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/story/wanping-export/2-2.webp",
+              "x": 27.18408515060861,
+              "y": 26.5624836809939,
+              "w": 48.52023001499857,
+              "h": 58.33289501779074,
+              "z": 8,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-after2-relation-copy",
+          "text": "上官婉儿和太平公主。\n\n一个是皇后亲手提拔的罪臣之女。\n一个是皇后最宠爱的女儿。\n\n她们年龄相近，长期生活在同一座宫廷，\n一个掌文字，一个近权谋，自然少不了相见的时候。\n\n再加上两人都擅长诗文，在一次次宫宴、游赏与唱和之间，也渐渐熟识起来。",
+          "boldRanges": [
+            {
+              "start": 61,
+              "end": 72
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-three-story-1",
+          "aspectRatio": 1.5,
+          "alt": "婉儿与太平公主共游东壁。",
+          "caption": "婉儿与太平公主共游东壁。",
+          "layers": [
+            {
+              "key": "scene-composite-lake",
+              "label": "游湖 · 双人完整画面",
+              "src": "assets/game/level-three/lake-trip-shangguan-waner-taiping.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 20,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-three-story-2",
+          "aspectRatio": 1.5,
+          "alt": "婉儿与太平公主同宴北渚。",
+          "caption": "婉儿与太平公主同宴北渚。",
+          "layers": [
+            {
+              "key": "scene-composite-banquet",
+              "label": "宴席 · 双人完整画面",
+              "src": "assets/game/level-three/banquet-shangguan-waner-princess-taiping.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 20,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-three-story-3",
+          "aspectRatio": 1.5,
+          "alt": "婉儿与太平公主诗忆长存。",
+          "caption": "婉儿与太平公主诗忆长存。",
+          "layers": [
+            {
+              "key": "scene-composite-poem",
+              "label": "诗文 · 双人完整画面",
+              "src": "assets/game/level-three/poetry-shangguan-waner-princess-taiping-banquet.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 20,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "court",
+      "title": "政局相逢",
+      "kicker": "公元705年",
+      "items": [
+        {
+          "type": "text",
+          "id": "figma-after3-history-copy",
+          "text": "公元705年，张柬之等大臣发动神龙政变。\n武则天被迫退位，将皇位交还给儿子李显。\n李显重新登基，是为唐中宗。武周结束，唐朝恢复。",
+          "boldRanges": [
+            {
+              "start": 15,
+              "end": 19
+            },
+            {
+              "start": 37,
+              "end": 39
+            },
+            {
+              "start": 41,
+              "end": 43
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-after3-taiping-layer",
+          "src": "assets/story/wanping-export/3-1.webp",
+          "alt": "太平公主受封赏",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after3-taiping-caption",
+          "text": "太平公主因参与政变受到封赏。",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-after3-waner-layer",
+          "src": "assets/story/wanping-export/3-2.webp",
+          "alt": "婉儿掌管诏命",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after3-waner-caption",
+          "text": "上官婉儿继续留在宫中掌管诏命，不久被封为昭容。",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-after3-throne-layer",
+          "src": "assets/story/wanping-export/3-3.webp",
+          "alt": "武则天去世",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after3-throne-caption",
+          "text": "同年冬天，武则天在上阳宫去世。",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-after3-palace-layer",
+          "src": "assets/story/wanping-export/3-4.webp",
+          "alt": "宫廷",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after3-palace-copy",
+          "text": "宫廷仍在运转，所有人要在新的皇帝身边\n重新寻找自己的位置。",
+          "boldRanges": []
+        },
+        {
+          "type": "scene",
+          "id": "court-portraits",
+          "aspectRatio": 4.699999999999999,
+          "alt": "安乐公主、韦皇后、太平公主、李旦、上官婉儿",
+          "sourceLayerIds": [
+            "figma-after3-anle-layer",
+            "figma-after3-wei-layer",
+            "figma-after3-taiping-portrait-layer",
+            "figma-after3-lidan-layer",
+            "figma-after3-waner-portrait-layer"
+          ],
+          "layers": [
+            {
+              "src": "assets/story/wanping-export/princess-anle-avatar.webp",
+              "x": 0,
+              "y": 0,
+              "w": 21.276595744680858,
+              "h": 100,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/story/wanping-export/empress-wei-avatar.webp",
+              "x": 19.68085106382979,
+              "y": 0,
+              "w": 21.276595744680858,
+              "h": 100,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/story/wanping-export/princess-taiping-avatar.webp",
+              "x": 39.36170212765958,
+              "y": 0,
+              "w": 21.276595744680858,
+              "h": 100,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/story/wanping-export/li-dan-avatar.webp",
+              "x": 59.04255319148939,
+              "y": 0,
+              "w": 21.276595744680858,
+              "h": 100,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/story/wanping-export/shangguan-waner-avatar.webp",
+              "x": 78.72340425531914,
+              "y": 0,
+              "w": 21.276595744680858,
+              "h": 100,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-after3-politics-copy",
+          "text": "韦皇后、安乐公主、太平公主、相王李旦和掌管诏命的上官婉儿，各自拥有不同的立场。\n到了中宗统治后期，皇位应当由谁继承，成为所有矛盾的中心。",
+          "boldRanges": [
+            {
+              "start": 0,
+              "end": 3
+            },
+            {
+              "start": 4,
+              "end": 8
+            },
+            {
+              "start": 9,
+              "end": 13
+            },
+            {
+              "start": 16,
+              "end": 18
+            },
+            {
+              "start": 24,
+              "end": 28
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-four-story-1",
+          "aspectRatio": 1.5,
+          "alt": "上官婉儿掌管诏命，与朝中官员往来。",
+          "caption": "上官婉儿掌管诏命，与朝中官员往来。",
+          "layers": [
+            {
+              "key": "power-composite",
+              "label": "婉儿＋权力 · 完整画面",
+              "src": "assets/game/level-four/waner-power-composite.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-four-story-2",
+          "aspectRatio": 1.5,
+          "alt": "太平公主与安乐公主各自发展势力。",
+          "caption": "太平公主与安乐公主各自发展势力。",
+          "layers": [
+            {
+              "key": "background-left-taiping",
+              "label": "左侧底色 · 太平公主",
+              "src": "assets/game/solid-scene-princess-taiping.webp",
+              "x": 0,
+              "y": 0,
+              "w": 50,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "background-right-anle",
+              "label": "右侧底色 · 安乐公主",
+              "src": "assets/game/solid-scene-generic.webp",
+              "x": 50,
+              "y": 0,
+              "w": 50,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "side-left-taiping",
+              "label": "左侧人物 · 太平公主",
+              "src": "assets/game/level-three/princess-taiping-close-side-half.webp",
+              "x": 0.32033258354755567,
+              "y": 0.892405251719313,
+              "w": 47,
+              "z": 30,
+              "kind": "natural",
+              "flip": true
+            },
+            {
+              "key": "side-right-anle",
+              "label": "右侧人物 · 安乐公主",
+              "src": "assets/game/level-four/princess-anle-side.webp",
+              "x": 45.16327344912119,
+              "y": 1.7919474037040388,
+              "w": 59.8,
+              "z": 30,
+              "kind": "natural",
+              "flip": false
+            },
+            {
+              "key": "balance-large",
+              "label": "制衡 · 中央大图标",
+              "src": "assets/game/level-four/balance-large-icon.webp",
+              "x": 24.498533901028278,
+              "y": 27.484861115246062,
+              "w": 52.1,
+              "z": 20,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-four-story-3",
+          "aspectRatio": 1.5,
+          "alt": "上官婉儿反对安乐公主成为皇太女。",
+          "caption": "上官婉儿反对安乐公主成为皇太女。",
+          "layers": [
+            {
+              "key": "edict-seat-anle",
+              "label": "诏令登座 · 安乐公主",
+              "src": "assets/game/level-four/edict-princess-anle.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "edict-stand-waner",
+              "label": "诏令站立人物 · 上官婉儿",
+              "src": "assets/game/level-three/shangguan-waner-close-side-half.webp",
+              "x": -3.156631587403599,
+              "y": 4.827199380749651,
+              "w": 49,
+              "z": 30,
+              "kind": "natural"
+            },
+            {
+              "key": "edict-bubble",
+              "label": "安乐公主拒绝气泡",
+              "src": "assets/game/level-four/rivalry-bubble.webp",
+              "x": 38.14494296272494,
+              "y": 13.09598380422162,
+              "w": 15,
+              "z": 50,
+              "kind": "natural"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testament",
+      "title": "共拟遗诏",
+      "kicker": "公元710年",
+      "items": [
+        {
+          "type": "text",
+          "id": "figma-after4-copy",
+          "text": "公元710年，唐中宗李显突然去世，\n原本勉强维持的平衡也随之被打破。",
+          "boldRanges": [
+            {
+              "start": 7,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-five-story-1",
+          "aspectRatio": 1.5,
+          "alt": "唐中宗去世。",
+          "caption": "唐中宗去世。",
+          "layers": [
+            {
+              "key": "background-death",
+              "label": "场景 · 皇族死亡",
+              "src": "assets/game/scene-royal-deaths.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "death-bubble",
+              "label": "死亡气泡",
+              "src": "assets/game/bubble.webp",
+              "x": 57,
+              "y": 7,
+              "w": 31.8,
+              "z": 28,
+              "kind": "natural"
+            },
+            {
+              "key": "death-portrait-zhongzong",
+              "label": "灰色头像 · 唐中宗",
+              "src": "assets/game/death/emperor-zhongzong-death-avatar.webp",
+              "x": 65.6356170837926,
+              "y": 10.872449787682758,
+              "w": 15.6,
+              "z": 29,
+              "kind": "portrait"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-five-story-2",
+          "aspectRatio": 1.5,
+          "alt": "上官婉儿与太平拟定遗诏。",
+          "caption": "上官婉儿与太平拟定遗诏。",
+          "layers": [
+            {
+              "key": "background-left-waner",
+              "label": "左侧底色 · 上官婉儿",
+              "src": "assets/game/solid-scene-shangguan-waner.webp",
+              "x": 0.4322983611825193,
+              "y": 0.33344249605525617,
+              "w": 50,
+              "z": 2,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "background-right-taiping",
+              "label": "右侧底色 · 太平公主",
+              "src": "assets/game/solid-scene-princess-taiping.webp",
+              "x": 49.37439749357326,
+              "y": -0.09899074101640418,
+              "w": 122.1,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "side-left-waner",
+              "label": "左侧人物 · 上官婉儿",
+              "src": "assets/game/shangguan-waner-close-side.webp",
+              "x": -3.5778736168373224,
+              "y": -0.5840969379882284,
+              "w": 51.4,
+              "z": 30,
+              "kind": "natural",
+              "flip": false
+            },
+            {
+              "key": "side-right-taiping",
+              "label": "右侧人物 · 太平公主",
+              "src": "assets/game/princess-taiping-close-side.webp",
+              "x": 52.98790258195014,
+              "y": -0.06820922086521475,
+              "w": 51.4,
+              "z": 30,
+              "kind": "natural",
+              "flip": true
+            },
+            {
+              "key": "edict-large",
+              "label": "诏令 · 大图",
+              "src": "assets/game/edict-large.webp",
+              "x": 19.58137050128534,
+              "y": -0.02753877757599213,
+              "w": 51.4,
+              "z": 12,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-five-story-3",
+          "aspectRatio": 1.5,
+          "alt": "制定韦皇后、李重茂、李旦权力制衡的方案。",
+          "caption": "制定韦皇后、李重茂、李旦权力制衡的方案。",
+          "layers": [
+            {
+              "key": "triple-background-top",
+              "label": "三分背景 · 上方 · 韦皇后",
+              "src": "assets/game/level-five/empress-wei-background.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "clipPath": "polygon(0 0, 100% 0, 50% 63%)",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "triple-background-right",
+              "label": "三分背景 · 右下 · 李重茂",
+              "src": "assets/game/solid-scene-shangguan-waner.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "clipPath": "polygon(100% 0, 50% 63%, 50% 100%, 100% 100%)",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "triple-background-left",
+              "label": "三分背景 · 左下 · 李旦",
+              "src": "assets/game/solid-scene-generic.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "clipPath": "polygon(0 0, 50% 63%, 50% 100%, 0 100%)",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "triple-divider-left",
+              "label": "三分线 · 左上",
+              "src": "assets/game/level-five/top-left.webp",
+              "x": 0,
+              "y": 0,
+              "w": 49.9,
+              "z": 8,
+              "kind": "natural"
+            },
+            {
+              "key": "triple-divider-right",
+              "label": "三分线 · 右上",
+              "src": "assets/game/level-five/top-right.webp",
+              "x": 48.8,
+              "y": 0,
+              "w": 51.2,
+              "z": 8,
+              "kind": "natural"
+            },
+            {
+              "key": "triple-divider-center",
+              "label": "三分线 · 中线",
+              "src": "assets/game/level-five/center-line.webp",
+              "x": 49.6,
+              "y": 61.9,
+              "w": 0.8,
+              "z": 8,
+              "kind": "natural"
+            },
+            {
+              "key": "triple-avatar-top",
+              "label": "三人头像 · 上方 · 韦皇后",
+              "src": "assets/game/level-five/empress-wei-choice.webp",
+              "x": 35.1702080655527,
+              "y": 1.2587751942600263,
+              "w": 30,
+              "z": 30,
+              "kind": "natural"
+            },
+            {
+              "key": "triple-avatar-right",
+              "label": "三人头像 · 右下 · 李重茂",
+              "src": "assets/game/level-five/li-chongmao-choice.webp",
+              "x": 67.82730157455012,
+              "y": 41.62782458542976,
+              "w": 30,
+              "z": 30,
+              "kind": "natural"
+            },
+            {
+              "key": "triple-avatar-left",
+              "label": "三人头像 · 左下 · 李旦",
+              "src": "assets/game/level-five/li-dan-choice.webp",
+              "x": 3.310130141388175,
+              "y": 43.747566167495314,
+              "w": 30,
+              "z": 30,
+              "kind": "natural"
+            },
+            {
+              "key": "triple-balance",
+              "label": "三人画面 · 制衡",
+              "src": "assets/game/level-four/balance-large-icon.webp",
+              "x": 34.41157214010283,
+              "y": 54.514081991128045,
+              "w": 31,
+              "z": 20,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-after5-balance",
+          "src": "assets/story/wanping-export/5-1.webp",
+          "alt": "遗诏中的权力制衡",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after5-testament",
+          "text": "她们最终拟定的遗诏，以中宗之子李重茂继位，由韦皇后临朝，相王李旦参预政事。\n年幼的新帝、韦皇后、李旦，相互制衡。",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-after5-wei-court",
+          "src": "assets/story/wanping-export/5-2.webp",
+          "alt": "韦皇后临朝",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "text-layer-c86c0f19",
+          "text": "然而这份遗诏，并没有换来她们想要的平衡。\n中宗死后，韦皇后的势力迅速控制了宫中。\n韦氏亲党很快改变了原有安排，相王李旦没能依照遗制辅政。",
+          "boldRanges": [
+            {
+              "start": 41,
+              "end": 45
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "coup-riders",
+          "aspectRatio": 1.6930232558139535,
+          "alt": "唐隆政变中的骑兵",
+          "sourceLayerIds": [
+            "figma-after5-riders",
+            "figma-after5-riders-bubble"
+          ],
+          "layers": [
+            {
+              "src": "assets/story/wanping-export/5-3.webp",
+              "x": 0,
+              "y": 0,
+              "w": 78.43406593406593,
+              "h": 100,
+              "z": 10,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            },
+            {
+              "src": "assets/story/wanping-export/5-4.webp",
+              "x": 65.52197802197803,
+              "y": 8.723757838497793,
+              "w": 34.47802197802198,
+              "h": 23.02325581395349,
+              "z": 30,
+              "fit": "contain",
+              "kind": "natural",
+              "flip": false,
+              "rotation": 0,
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-after5-coup",
+          "text": "不久，太平公主与李隆基共同发动唐隆政变。\n韦皇后和安乐公主被杀，李重茂也失去了皇位。",
+          "boldRanges": [
+            {
+              "start": 15,
+              "end": 19
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-after5-wei",
+          "src": "assets/story/wanping-export/5-5.webp",
+          "alt": "上官婉儿持烛迎接李隆基",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-after5-candle-copy",
+          "text": "上官婉儿没有逃走。\n兵刃相接的宫城里，她手持蜡烛，带领宫人迎接李隆基。",
+          "boldRanges": [
+            {
+              "start": 25,
+              "end": 34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "farewell",
+      "title": "身后吊祭",
+      "kicker": "公元710年—713年",
+      "items": [
+        {
+          "type": "scene",
+          "id": "level-six-story-1",
+          "aspectRatio": 1.5,
+          "alt": "李隆基拒绝赦免，婉儿被杀。",
+          "caption": "李隆基拒绝赦免，婉儿被杀。",
+          "layers": [
+            {
+              "key": "power-background-longji",
+              "label": "场景 · 朝堂与李隆基",
+              "src": "assets/game/level-six/court-hall-with-li-longji.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "power-kneel-waner",
+              "label": "跪拜小人 · 上官婉儿",
+              "src": "assets/game/level-six/kneeling-figure-shangguan-waner.webp",
+              "x": 43.18760041773779,
+              "y": 62.47235702164399,
+              "w": 12.5,
+              "z": 30,
+              "kind": "natural"
+            },
+            {
+              "key": "power-kill-bubble",
+              "label": "杀害气泡",
+              "src": "assets/game/level-six/murder-bubble.webp",
+              "x": 53.92922557840617,
+              "y": 13.693084045371997,
+              "w": 18.1,
+              "z": 27,
+              "kind": "natural"
+            },
+            {
+              "key": "power-kill-knife",
+              "label": "杀害 · 刀",
+              "src": "assets/game/level-six/murder-knife-bubble-overlay.webp",
+              "x": 56.10445453084832,
+              "y": 15.58185715561642,
+              "w": 14.5,
+              "z": 28,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-six-story-2",
+          "aspectRatio": 1.5,
+          "alt": "太平得知婉儿死亡。",
+          "caption": "太平得知婉儿死亡。",
+          "layers": [
+            {
+              "key": "death-background",
+              "label": "场景 · 墓地",
+              "src": "assets/game/level-one/death/death-background-cemetery.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "death-bubble",
+              "label": "死亡气泡",
+              "src": "assets/game/level-one/death/death-bubble.webp",
+              "x": 61,
+              "y": 5,
+              "w": 25,
+              "z": 28,
+              "kind": "natural"
+            },
+            {
+              "key": "death-portrait-waner",
+              "label": "第一死者灰头像 · 上官婉儿",
+              "src": "assets/game/death/shangguan-waner-death-avatar.webp",
+              "x": 66.62007953084833,
+              "y": 4.530947631665128,
+              "w": 15.9,
+              "z": 29,
+              "kind": "portrait"
+            },
+            {
+              "key": "death-survivor-taiping",
+              "label": "第二位活人 · 太平公主",
+              "src": "assets/game/princess-taiping-close-side.webp",
+              "x": 1.4093629498714653,
+              "y": -0.14588109202417457,
+              "w": 51.4,
+              "z": 30,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "scene",
+          "id": "level-six-story-3",
+          "aspectRatio": 1.5,
+          "alt": "太平派人吊祭婉儿。",
+          "caption": "太平派人吊祭婉儿。",
+          "layers": [
+            {
+              "key": "memorial-background",
+              "label": "场景 · 吊祭",
+              "src": "assets/game/level-six/scene-memorial.webp",
+              "x": 0,
+              "y": 0,
+              "w": 100,
+              "z": 1,
+              "kind": "cover",
+              "h": 100,
+              "fit": "cover"
+            },
+            {
+              "key": "memorial-tablet-waner",
+              "label": "吊祭牌位 · 上官婉儿",
+              "src": "assets/game/level-six/memorial-shangguan-waner.webp",
+              "x": 42.16828406169666,
+              "y": 11.234517252672006,
+              "w": 15.8,
+              "z": 30,
+              "kind": "natural"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-after6-copy",
+          "text": "上官婉儿死后，睿宗朝恢复了她的昭容名位。太平公主随后请求朝廷收集她散失的诗文。\n\n然而，太平与李隆基的同盟没有维持多久。\n 公元713年，李隆基诛杀太平公主的党羽。太平逃入山寺，三日后返回府中，被赐死于家。\n\n此后不久，上官婉儿的墓遭到人为的大规模破坏。 \n墓室被毁，随葬之物散失，许多曾经存在过的痕迹也被一并抹去……",
+          "boldRanges": [
+            {
+              "start": 141,
+              "end": 159
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "wind-gallery",
+          "alt": "曾经的故事与记忆",
+          "images": [
+            {
+              "src": "assets/story/wind-gallery/01.webp",
+              "alt": "往事画面 1"
+            },
+            {
+              "src": "assets/story/wind-gallery/02.webp",
+              "alt": "往事画面 2"
+            },
+            {
+              "src": "assets/story/wind-gallery/03.webp",
+              "alt": "往事画面 3"
+            },
+            {
+              "src": "assets/story/wind-gallery/04.webp",
+              "alt": "往事画面 4"
+            },
+            {
+              "src": "assets/story/wind-gallery/05.webp",
+              "alt": "往事画面 5"
+            },
+            {
+              "src": "assets/story/wind-gallery/06.webp",
+              "alt": "往事画面 6"
+            },
+            {
+              "src": "assets/story/wind-gallery/07.webp",
+              "alt": "往事画面 7"
+            },
+            {
+              "src": "assets/story/wind-gallery/08.webp",
+              "alt": "往事画面 8"
+            },
+            {
+              "src": "assets/story/wind-gallery/09.webp",
+              "alt": "往事画面 9"
+            },
+            {
+              "src": "assets/story/wind-gallery/10.webp",
+              "alt": "往事画面 10"
+            },
+            {
+              "src": "assets/story/wind-gallery/11.webp",
+              "alt": "往事画面 11"
+            },
+            {
+              "src": "assets/story/wind-gallery/12.webp",
+              "alt": "往事画面 12"
+            },
+            {
+              "src": "assets/story/wind-gallery/13.webp",
+              "alt": "往事画面 13"
+            },
+            {
+              "src": "assets/story/wind-gallery/14.webp",
+              "alt": "往事画面 14"
+            },
+            {
+              "src": "assets/story/wind-gallery/15.webp",
+              "alt": "往事画面 15"
+            },
+            {
+              "src": "assets/story/wind-gallery/16.webp",
+              "alt": "往事画面 16"
+            },
+            {
+              "src": "assets/story/wind-gallery/17.webp",
+              "alt": "往事画面 17"
+            },
+            {
+              "src": "assets/story/wind-gallery/18.webp",
+              "alt": "往事画面 18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "史书中的误写",
+      "kicker": "后来流传的故事里",
+      "items": [
+        {
+          "type": "text",
+          "id": "text-layer-9599014f",
+          "text": "后来流传的故事里……",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-post-gallery-waner-image",
+          "src": "assets/game/final-chapter/initial-1.webp",
+          "alt": "史书误写·上官婉儿",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-post-gallery-waner-copy",
+          "text": "上官婉儿被归入韦皇后与武三思一方，成了淫乱失德、依附权势、扰乱朝政的内廷女官。\n 《旧唐书》写：“婉儿既与武三思淫乱。” \n《新唐书》又写：“婉儿与近嬖至皆营外宅，邪人秽夫争候门下，肆狎昵，因以求剧职要官。\n与崔湜乱，遂引知政事。”",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-post-gallery-taiping-image",
+          "src": "assets/game/final-chapter/initial-2.webp",
+          "alt": "史书误写·太平公主",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-post-gallery-taiping-copy",
+          "text": "太平公主则被写成贪恋权位、意图夺权，最终败亡的公主。 \n《资治通鉴》说她轻视年轻的李隆基，想要：“更择暗弱者立之，以久其权。” \n两人共同拟诏也被解释为婉儿临危时的政治投机。",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-post-gallery-rivalry-image",
+          "src": "assets/game/final-chapter/initial-3.webp",
+          "alt": "史书误写·政敌与情敌",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-post-gallery-rivalry-copy",
+          "text": "到了后世的通俗讲述里，婉儿与崔湜的往来、崔湜后来依附太平的政治纠葛， \n又被拼接成两名女性争夺同一个男人的故事。 \n她们就这样被误写成了彼此争权、争人的政敌与情敌。",
+          "boldRanges": []
+        }
+      ]
+    },
+    {
+      "id": "remember",
+      "title": "千载昭明",
+      "kicker": "循着史料留下的痕迹",
+      "items": [
+        {
+          "type": "image",
+          "id": "final-resolved-1",
+          "src": "assets/game/final-chapter/resolved-1.webp",
+          "alt": "上官婉儿执掌制诰、参与朝廷机要。",
+          "caption": "上官婉儿执掌制诰、参与朝廷机要。"
+        },
+        {
+          "type": "image",
+          "id": "final-resolved-2",
+          "src": "assets/game/final-chapter/resolved-2.webp",
+          "alt": "太平公主权略过人，能在变幻的朝局中谋断进退。",
+          "caption": "太平公主权略过人，能在变幻的朝局中谋断进退。"
+        },
+        {
+          "type": "image",
+          "id": "final-resolved-3",
+          "src": "assets/game/final-chapter/resolved-3.webp",
+          "alt": "二人是共游的知己，也是危局中彼此信任的政治盟友。",
+          "caption": "二人是共游的知己，也是危局中彼此信任的政治盟友。"
+        }
+      ]
+    },
+    {
+      "id": "epilogue",
+      "title": "千年万岁，椒花颂声",
+      "kicker": "2013年 · 陕西咸阳",
+      "items": [
+        {
+          "type": "image",
+          "id": "figma-epilogue-monument-image",
+          "src": "assets/game/final-chapter/epilogue-monument.webp",
+          "alt": "尾声·墓碑",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-opening",
+          "text": "一千三百零三年后。 \n2013年，考古人员在陕西咸阳发掘了一座唐墓。",
+          "boldRanges": [
+            {
+              "start": 10,
+              "end": 11
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-body-one",
+          "text": "墓葬早已被毁，棺椁与遗骨不存，只剩甬道中的一方墓志。 \n志盖上刻着九个篆字：大唐故昭容上官氏铭。\n 墓主人正是上官婉儿。 \n随着墓志上的文字被逐字释读，研究者们又看见了另一个熟悉的名字，太平公主。",
+          "boldRanges": [
+            {
+              "start": 38,
+              "end": 47
+            },
+            {
+              "start": 55,
+              "end": 59
+            },
+            {
+              "start": 93,
+              "end": 97
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-epilogue-tombstone-image",
+          "src": "assets/game/final-chapter/epilogue-tombstone.webp",
+          "alt": "尾声·墓志",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-body-two",
+          "text": "墓志写道： “太平公主哀伤，赙赠绢五百匹，遣使吊祭，词旨绸缪。” \n“绸缪”，本有缠绵、情意深厚之意。",
+          "boldRanges": [
+            {
+              "start": 6,
+              "end": 32
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-body-three",
+          "text": "可在传统史书中，她们常被放在对立的位置。 \n既然如此，太平公主为何会在婉儿死后如此哀伤，又为何留下这样一场郑重的吊祭？",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "figma-epilogue-reader-image",
+          "src": "assets/game/final-chapter/epilogue-reader.webp",
+          "alt": "尾声·翻检史书",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-body-four",
+          "text": "于是，人们开始重新翻检史书。 \n越来越多研究者发现，原本被写成敌对双方的两个人，\n关系并没有那么简单。",
+          "boldRanges": []
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-body-five",
+          "text": "史书更多记下的是党争、立场与胜负，可这一方墓志，却留下了另一种声音。 \n写她的离去，如潇湘断流，如山岳倾覆，写她的才华，如明珠沉没，如连城之玉破碎。",
+          "boldRanges": []
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-body-six",
+          "text": "仿佛有人在很久以前便已知道，这样一个人的一生，也许有一天会被误解、被改写、被遗忘。 \n所以要把她的名字刻下来。",
+          "boldRanges": [
+            {
+              "start": 43,
+              "end": 55
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "id": "figma-epilogue-women-image",
+          "src": "assets/game/final-chapter/epilogue-women.webp",
+          "alt": "尾声·婉儿与太平",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "figma-epilogue-closing",
+          "text": "愿她的名字不随尘土埋没。 \n愿她的才华不随毁誉消散。 \n愿后世仍有人记得，仍有人传颂。 \n千年万岁，椒花颂声。",
+          "boldRanges": [
+            {
+              "start": 45,
+              "end": 55
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "text-layer-4fbbac5f",
+          "text": "-完-",
+          "boldRanges": []
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "参考文献与制作",
+      "kicker": "",
+      "items": [
+        {
+          "type": "text",
+          "id": "text-layer-798ea575",
+          "text": "参考文献",
+          "boldRanges": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "text-layer-62dadcab",
+          "text": "[1] 刘昫. 旧唐书[M]. 中华书局，1975.\n[2] 欧阳修，宋祁. 新唐书[M]. 中华书局，1975.\n[3] 司马光. 资治通鉴[M]. 中华书局，1956.\n[4] 佚名. 大唐故婕妤上官氏墓志铭并序[Z]. 710.\n[5] 张说. 唐昭容上官氏文集序[Z].\n[6] 郑雅如. 重探上官婉儿的死亡、平反与当代评价[J]. 早期中国史研究，2012，4(1)：111—145.\n[7] 陕西省考古研究院. 唐昭容上官氏墓考古发掘报告[M]. 文物出版社，2023.\n[8] 上官婉儿 × 太平公主：纵使权力孤独，仍可与你共舞[EB/OL]. 热可可，2026-05-06.",
+          "boldRanges": []
+        },
+        {
+          "type": "text",
+          "id": "text-layer-e7716ca1",
+          "text": "本作为历史题材长卷叙事作品，作品中部分场景与情节为艺术化创作。\n人物生平与历史事件，请以相关史料与研究成果为准。",
+          "boldRanges": []
+        },
+        {
+          "type": "image",
+          "id": "image-layer-52d68768",
+          "src": "assets/uploads/0faaee0a151b71ac3543.webp",
+          "alt": "Group 325 (1).png",
+          "flip": false
+        },
+        {
+          "type": "text",
+          "id": "text-layer-28f23e0e",
+          "text": "开发人员",
+          "boldRanges": [
+            {
+              "start": 0,
+              "end": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
